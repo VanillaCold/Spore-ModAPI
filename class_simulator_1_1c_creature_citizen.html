@@ -57,7 +57,6 @@
               <ul>
                 <li><a href="#base-classes">Base classes</a></li>
                 <li><a href="#pub-static-attribs">Public static variables</a></li>
-                <li><a href="#pub-static-methods">Public static functions</a></li>
                 <li><a href="#pub-methods">Public functions</a></li>
                 <li><a href="#pub-attribs">Public variables</a></li>
               </ul>
@@ -86,28 +85,9 @@
             <dd><span></span></dd>
           </dl>
         </section>
-        <section id="pub-static-methods">
-          <h2><a href="#pub-static-methods">Public static functions</a></h2>
-          <dl class="m-doc">
-            <dt>
-              <span class="m-doc-wrap-bumper">static auto <a href="#a998fc43fdb4607758b258483a231cedb" class="m-doc">GetSpecializedName</a>(</span><span class="m-doc-wrap"><a href="class_simulator_1_1c_game_data.html" class="m-doc">cGameData</a>* object) -&gt; eastl::fixed_string&lt;<a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">char16_<wbr />t</a>, 32&gt;</span>
-            </dt>
-            <dd>Returns the specialized name for a creature citizen, such as &quot;Chieftain Whatever&quot;.</dd>
-          </dl>
-        </section>
         <section id="pub-methods">
           <h2><a href="#pub-methods">Public functions</a></h2>
           <dl class="m-doc">
-            <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#ad4a90a41c8e9f425fab41e52ae5f2094" class="m-doc">DoAction</a>(</span><span class="m-doc-wrap"><a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">int</a> actionId,
-              <a href="class_simulator_1_1c_game_data.html" class="m-doc">cGameData</a>* actionObject,
-              <a href="class_app_1_1_property.html" class="m-doc">App::<wbr />Property</a>* property = <a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">nullptr</a>) -&gt; <a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">void</a></span>
-            </dt>
-            <dd>Programs this creature behavior tree data (i.e.</dd>
-            <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#abc584c7a29e5a597f8bc33f1044ec112" class="m-doc">GetHandheldItemForTool</a>(</span><span class="m-doc-wrap"><a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">int</a> toolType) -&gt; <a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">int</a></span>
-            </dt>
-            <dd>For a given tribal tool from <a href="namespace_simulator.html#ab1b0d73c73c9eedcf8560ef2f85d1b52" class="m-doc">Simulator::<wbr />TribeToolType</a>, returns which item must be held by the citizen.</dd>
             <dt id="a3a9c8996c8e1adc7cfec11f8f09b51c8">
               <span class="m-doc-wrap-bumper">auto <a href="#a3a9c8996c8e1adc7cfec11f8f09b51c8" class="m-doc-self">AddRef</a>(</span><span class="m-doc-wrap">) -&gt; <a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">int</a> <span class="m-label m-flat m-warning">pure virtual</span></span>
             </dt>
@@ -194,78 +174,6 @@
             </dt>
             <dd><span></span></dd>
           </dl>
-        </section>
-        <section>
-          <h2>Function documentation</h2>
-          <section class="m-doc-details" id="a998fc43fdb4607758b258483a231cedb"><div>
-            <h3>
-              <span class="m-doc-wrap-bumper">static eastl::fixed_string&lt;<a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">char16_<wbr />t</a>, 32&gt; Simulator::<wbr />cCreatureCitizen::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a998fc43fdb4607758b258483a231cedb" class="m-doc-self">GetSpecializedName</a>(</span><span class="m-doc-wrap"><a href="class_simulator_1_1c_game_data.html" class="m-doc">cGameData</a>* object)</span></span>
-            </h3>
-            <p>Returns the specialized name for a creature citizen, such as &quot;Chieftain Whatever&quot;.</p>
-            <table class="m-table m-fullwidth m-flat">
-              <thead>
-                <tr><th colspan="2">Parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="width: 1%">object</td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-          </div></section>
-          <section class="m-doc-details" id="ad4a90a41c8e9f425fab41e52ae5f2094"><div>
-            <h3>
-              <span class="m-doc-wrap-bumper"><a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">void</a> Simulator::<wbr />cCreatureCitizen::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad4a90a41c8e9f425fab41e52ae5f2094" class="m-doc-self">DoAction</a>(</span><span class="m-doc-wrap"><a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">int</a> actionId,
-              <a href="class_simulator_1_1c_game_data.html" class="m-doc">cGameData</a>* actionObject,
-              <a href="class_app_1_1_property.html" class="m-doc">App::<wbr />Property</a>* property = <a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">nullptr</a>)</span></span>
-            </h3>
-            <p>Programs this creature behavior tree data (i.e.</p>
-            <table class="m-table m-fullwidth m-flat">
-              <thead>
-                <tr><th colspan="2">Parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="width: 1%">actionId</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>actionObject</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>property</td>
-                  <td>[Optional]</td>
-                </tr>
-              </tbody>
-            </table>
-<p>its <a href="namespace_simulator_1_1_a_i.html" class="m-doc">AI</a>) to do a certain action from <a href="namespace_simulator.html#a3068a6e284562d7b8e1aa81aec62abbd" class="m-doc">Simulator::<wbr />CitizenAction</a>. The action is defined by an ID and an object to act on, for instance, <a href="namespace_simulator.html#a3068a6e284562d7b8e1aa81aec62abbdae94200d8f18d07deb570cc3b3b547f75" class="m-doc">Simulator::<wbr />kCitizenActionGrabTool</a> and the <a href="class_simulator_1_1c_tribe_tool.html" class="m-doc">cTribeTool</a> object.</p>
-          </div></section>
-          <section class="m-doc-details" id="abc584c7a29e5a597f8bc33f1044ec112"><div>
-            <h3>
-              <span class="m-doc-wrap-bumper"><a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">int</a> Simulator::<wbr />cCreatureCitizen::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abc584c7a29e5a597f8bc33f1044ec112" class="m-doc-self">GetHandheldItemForTool</a>(</span><span class="m-doc-wrap"><a href="_object_8h.html#a2e82adf9870bdb442cdcf2b3e01315b2" class="m-doc">int</a> toolType)</span></span>
-            </h3>
-            <p>For a given tribal tool from <a href="namespace_simulator.html#ab1b0d73c73c9eedcf8560ef2f85d1b52" class="m-doc">Simulator::<wbr />TribeToolType</a>, returns which item must be held by the citizen.</p>
-            <table class="m-table m-fullwidth m-flat">
-              <thead>
-                <tr><th colspan="2">Parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="width: 1%">toolType</td>
-                  <td></td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <th>Returns</th>
-                  <td>An integer identifying the kind of item to be held</td>
-                </tr>
-              </tfoot>
-            </table>
-<p>The item is part of the <a href="namespace_simulator.html#a5ce2154d40247efb9dc0ca643b1ca084" class="m-doc">Simulator::<wbr />HandheldItem</a> enum.</p>
-          </div></section>
         </section>
       </div>
     </div>
